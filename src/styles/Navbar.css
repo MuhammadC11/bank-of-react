@@ -12,7 +12,7 @@
 }
 
 .navHeader {
-  margin-right: auto;
+  margin: auto;
   margin-left: 10px;
 }
 
@@ -24,4 +24,5 @@
 
 a {
   margin-right: 10px;
+  background-color: transparent;
 }

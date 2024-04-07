@@ -6,7 +6,6 @@ Note: You need to work on this file for the Assignment.
 ==================================================*/
 import React, { useState } from "react";
 import AccountBalance from "./AccountBalance";
-import { Link } from "react-router-dom";
 import "../styles/Debits.css";
 
 const Debits = ({ debits, accountBalance, addDebit }) => {
