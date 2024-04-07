@@ -11,37 +11,49 @@ import "../styles/Credits.css";
 
 const Credits = ({ credits, accountBalance, addCredits }) => {
   // State variables
-  const [description, setDescription] = useState("");
-  const [amount, setAmount] = useState("");
+  const [description, setDescription] = useState(""); // Description of the credit
+  const [amount, setAmount] = useState(""); // Amount of the credit
 
   // Handle form field changes
   const handleFieldChange = (event) => {
-    const { name, value } = event.target;
+    const { name, value } = event.target; // Destructure name and value from the event target
     if (name === "description") {
-      setDescription(value);
+      // If the name is description
+      setDescription(value); // Set the description to the value
     } else if (name === "amount") {
-      setAmount(value);
+      // If the name is amount
+      setAmount(value); // Set the amount to the value
     }
   };
 
   // Handle form submission
   const handleSubmit = (event) => {
-    event.preventDefault();
-    addCredits(description, amount);
-    setDescription("");
-    setAmount("");
+    event.preventDefault(); // Prevent the default form submission behavior (refreshing the page)
+    addCredits(description, amount); // Add the credit with the description and amount
+    setDescription(""); // Reset the description
+    setAmount(""); // Reset the amount
   };
 
   // Render credit history
   const renderCredits = () => {
-    return credits.map((credit) => (
-      <li key={credit.id}>
-        <div className="credit-item">
-          <div className="credit-description">{credit.description}</div>
-          <div className="credit-amount">${credit.amount}</div>
-        </div>
-      </li>
-    ));
+    return credits.map(
+      (
+        credit // Map each credit to a list item
+      ) => (
+        <li key={credit.id}>
+          {" "}
+          {/* Set the key to the credit id */}
+          <div className="credit-item">
+            {" "}
+            {/* Credit item */}
+            <div className="credit-description">{credit.description}</div>{" "}
+            {/* Credit description */}
+            <div className="credit-amount">${credit.amount}</div>{" "}
+            {/* Credit amount */}
+          </div>
+        </li>
+      )
+    );
   };
 
   return (
