@@ -1,0 +1,13 @@
+.navBar {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.navHeader {
+  margin-right: auto;
+  margin-left: 10px;
+}
