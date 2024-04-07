@@ -19,10 +19,9 @@ class Home extends Component {
         <div>
           <h1 className="header">Bank of React</h1>
 
-          <br />
-
-          <h4>Your Balance is:</h4>
-          <AccountBalance accountBalance={this.props.accountBalance} />
+          <h4>
+            <AccountBalance accountBalance={+this.props.accountBalance} />
+          </h4>
         </div>
       </div>
     );
