@@ -2,36 +2,12 @@
 This repository is the starter code for Assignment 3 - Bank of React.
 
 ### Live Link 
-[Website link](https://johnnylaicode.github.io/bank-of-react-starter-code/)
+[Website link](https://muhammadc11.github.io/bank-of-react/)
 
 ----------
-### 1. Use the following process to ***import*** the Assignment 3 starter code repository to your GitHub account as your starter codebase
-1.	Log on to GitHub
-2.	Click on the + sign in the top right corner (next to the user icon)
-3.	In the dropdown menu, select "Import repository"
-4.	A new page will open
-5.	In "Your old repository’s clone URL" field, enter: `https://github.com/johnnylaicode/bank-of-react-starter-code`
-6.	In "Your new repository details" field, enter your own repository name (e.g., "assignment-3")
-7.	Click on the "Begin import" button to start the process
-8.	After the process completed, your new "assignment-3" repository is created – as a completely independent codebase
-9.	From this point on, you can clone your new repository, make changes, create feature branches, and create/merge pull requests
 
-----------
-### 2. Use the information below to ***clone*** the starter codebase to your local machine
-After creating the starter codebase "assignment-3" repository on GitHub (see above), you can clone it to your local machine. The instructions on how to clone a GitHub repository are available at this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
-----------
-### 3. Use the following commands to install dependencies and run the application
 
-- First, run this command to install dependencies: ```npm install```
-- Next, run this command to start the React application: ```npm start```
-
-**Note: This application uses React Router version 5 and should be compatible with later versions of React Router. If you encounter problems with a later version of React Router, you can specifically install React Router version 5 using the following commands:** 
-```
-npm install react-router-dom@5.3.0 react-router@5.2.1
-npm install react-scripts@latest --legacy-peer-deps 
-``` 
-**Afterward, you can run the ```npm start``` command to start the React application.**
 
 ----------
 ### 4. Set up and deploy a React application to GitHub Pages
