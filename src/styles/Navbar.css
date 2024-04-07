@@ -15,3 +15,13 @@
   margin-right: auto;
   margin-left: 10px;
 }
+
+.navLink {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  margin-right: 10px;
+}
