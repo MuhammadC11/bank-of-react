@@ -22,7 +22,7 @@ const Debits = ({ debits, accountBalance, addDebit }) => {
         <ul key={debit.id}>
           <div className="debit-item">
             <div className="debit-description">{debit.description}</div>
-            <div className="debit-amount">+ ${debit.amount}</div>
+            <div className="debit-amount">- ${debit.amount}</div>
             <br />
             <div className="debit-date">{date}</div>
           </div>
